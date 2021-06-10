@@ -1,7 +1,8 @@
 #Write a program to find the sum of each element of list?
-num=1,2,3,4
+num=[1,2,3,4]
+sum=0
 for i in num:
-    sum=i+1
-    print(sum,end=' ')
-else:
-    print('Programme End')
+    sum=sum+i
+print(sum,end=' ')
+
+
