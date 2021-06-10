@@ -2,6 +2,6 @@
 num=1,2,3,4
 for i in num:
     sum=i+1
-    print(sum)
+    print(sum,end=' ')
 else:
     print('Programme End')
